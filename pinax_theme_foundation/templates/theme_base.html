@@ -27,7 +27,7 @@
 
     {% block style_base %}
     	<link href="{% static "css/foundation.css" %}" rel="stylesheet">
-    	<link href="{% static "css/foundation-icons.css" %}" rel="stylesheet">
+    	<link href="{% static "css/font-awesome.css" %}" rel="stylesheet">
      	{% block extra_style %}{% endblock %}
     {% endblock %}
 
@@ -79,9 +79,7 @@
     	{% block script_base %}
 
     		<script src="{% static "js/vendor/jquery.js" %}"></script>
-    		
     		<script src="{% static "js/foundation.min.js" %}"></script>
-            
     		<script>
     		    $(document).foundation();
     		</script>
